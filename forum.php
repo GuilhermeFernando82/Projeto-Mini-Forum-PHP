@@ -29,7 +29,7 @@
         echo "<h1 style=color:green;text-align:center>"."Categorias e suas postagens"."</h1>"."<br>";
         
         echo "<h1 style=text-align:center>"."Programação"."</h1>"."<br>";
-        include("antixss.php");
+        
 
         foreach ($p1->fetchAll() as $key) {
             echo "<h4 style='text-align:center'>"."<a href=".$key['link'].">".$key['titulo']."</a>"."</h4>"."<br>";
