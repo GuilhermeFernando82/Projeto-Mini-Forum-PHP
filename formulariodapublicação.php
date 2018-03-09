@@ -2,6 +2,10 @@
 <html>
 <head>
     <title>Formulário</title>
+    <script type="text/javascript" src="nicEdit.js"></script>
+	<script type="text/javascript">
+	    bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+	</script>
 </head>
 <body>
 <form method="post" enctype="multipart/form-data" action="publicar.php">
